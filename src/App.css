@@ -1,0 +1,93 @@
+/* .App {
+	text-align: center;
+	background-color: aliceblue;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+} */
+
+body {
+	margin: 0%;
+	padding: 0%;
+}
+
+.navbar {
+	display: flex;
+	background-color: aquamarine;
+	padding: 7px 7px 7px 7px;
+	font-size: 1.1rem;
+	justify-content: flex-end;
+}
+
+.navlink {
+	margin: 5px;
+}
+
+.Form {
+	width: 500px;
+	height: 400px;
+	background-color: rgb(82, 175, 175);
+	box-shadow: 3px 3px 10px;
+	display: flex;
+	flex-direction: column;
+	margin: 2rem auto;
+}
+
+.Form .title {
+	color: white;
+	width: 100%;
+	display: grid;
+	place-items: center;
+	font-size: 35px;
+}
+
+.Form .inputs,
+.Form #aula {
+	display: grid;
+	place-items: center;
+	width: 100%;
+}
+
+.inputs input,
+.inputs #aula {
+	width: 250px;
+	height: 40px;
+	font-size: 20px;
+	border-radius: 6px;
+	border: none;
+	padding-left: 10px;
+	margin-top: 10px;
+}
+
+.formita {
+	display: flex;
+	flex-direction: column;
+}
+
+/* #foto::-webkit-file-upload-button {
+	visibility: hidden;
+	margin: 0;
+	padding: 0;
+} */
+
+input::file-selector-button {
+	border: 1px solid #c1bdbd;
+	width: 260px;
+	height: 40px;
+	font-size: 20px;
+	border-radius: 6px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.inputs #submit {
+	cursor: pointer;
+}
+
+#checkbox {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	margin-left: 60px;
+}
